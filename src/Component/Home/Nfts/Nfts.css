@@ -1,0 +1,51 @@
+.mainNftsContainer {
+  background: rgba(217, 224, 236, 0.2);
+  backdrop-filter: blur(25px);
+  /* padding: 64px 0px; */
+}
+.nftsContainer {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 20px;
+}
+.nftCard {
+  width: 269.876px;
+  height: 373px;
+  background-color: white;
+  padding: 10px;
+  border-radius: 15px;
+}
+.Eth {
+  color: #00ac4f;
+  font-size: 16px;
+  font-family: DM Sans;
+  font-weight: 700;
+}
+.time {
+  padding: 4.388px 10.971px;
+  border-radius: 109.706px;
+  background-color: #f5f5f5;
+  font-size: 10.971px;
+  font-family: DM Sans;
+}
+.bid {
+  color: #4f33a3;
+  font-size: 15.359px;
+  font-family: DM Sans;
+  font-weight: 500;
+}
+.moreNftBtn {
+  padding: 20px 40px;
+  border-radius: 50px;
+  border: 2px solid #3d00b7;
+  color: #4f33a3;
+  font-size: 20px;
+  font-family: DM Sans;
+  font-weight: 500;
+  text-align: center;
+}
+.moreNft {
+  text-align: center;
+  padding-top: 55px;
+  padding-bottom: 47px;
+}
