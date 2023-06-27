@@ -16,9 +16,17 @@
 }
 
 .countContainer {
-   display: flex;
-   
+  display: flex;
 }
 .countContainer div {
-    padding-right: 23px;
+  padding-right: 23px;
 }
+
+@media only screen and (max-width: 600px) {
+  .bannerContainer {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    align-items: center;
+  }
+}
+

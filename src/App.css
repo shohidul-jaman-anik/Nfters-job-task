@@ -1,6 +1,5 @@
-
 body {
-  font-family: 'Integral CF', sans-serif;
+  font-family: "Integral CF", sans-serif;
 }
 h1 {
   color: #000;
@@ -8,6 +7,18 @@ h1 {
   font-family: "integral_cf";
   font-weight: bolder;
   letter-spacing: 2px;
+}
+h2 {
+  color: #000;
+  font-size: 28px;
+  font-family: "Integral CF";
+  font-weight: 700;
+}
+h5 {
+  color: #000;
+  font-size: 20px;
+  font-family: DM Sans;
+  font-weight: 700;
 }
 
 p {
@@ -17,6 +28,24 @@ p {
   line-height: 160%;
 }
 
-.container{
+.container {
   padding: 0px 120px;
+}
+
+@media only screen and (max-width: 600px) {
+  h1 {
+    font-size: 28px;
+  }
+  .container {
+    padding: 0px 10px;
+  }
+}
+
+@media only screen and (min-device-width: 600px) and (max-device-width: 778px) {
+  h1 {
+    font-size: 36px;
+  }
+  .container {
+    padding: 0px 30px;
+  }
 }
