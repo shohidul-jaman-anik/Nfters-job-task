@@ -33,7 +33,7 @@ const NftCollection = () => {
                     <div>
                         <p>Highest Bid</p>
                         <div className='flex'>
-                            <img src={blackEth} alt=""  />
+                            <img src={blackEth} alt="" />
                             <h3>0.25 ETH</h3>
                         </div>
                     </div>
@@ -41,46 +41,48 @@ const NftCollection = () => {
                 </div>
             </div>
 
+            {/* ---------- Center Section --------------- */}
+
             <div>
-                <div className='flex'>
+                <div className='flex centerSection'>
                     <img src={center1} alt="" />
-                    <div className='ml-3'>
+                    <div className='ml-3 centerContent'>
                         <h5>The Futr Abstr</h5>
-                        <div className='flex justify-around my-2'>
+                        <div className='flex justify-around items-center my-2'>
                             <img src={person} alt="" />
                             <p className='ethBtn mx-3'>0.25 ETH</p>
-                            <p>1 of 8</p>
+                            <p className='persent'>1 of 8</p>
                         </div>
                         <button className='bidBtn '>Place a bid</button>
                     </div>
                 </div>
-                <div className='flex my-5'>
+                <div className='flex my-5 centerSection'>
                     <img src={center2} alt="" />
-                    <div className='ml-3'>
+                    <div className='ml-3 centerContent'>
                         <h5>The Futr Abstr</h5>
-                        <div className='flex justify-around my-2'>
+                        <div className='flex justify-around items-center my-2'>
                             <img src={person} alt="" />
                             <p className='ethBtn mx-3'>0.25 ETH</p>
-                            <p>1 of 8</p>
+                            <p className='persent'>1 of 8</p>
                         </div>
                         <button className='bidSecondBtn'>Place a bid</button>
                     </div>
                 </div>
-                <div className='flex'>
+                <div className='flex centerSection'>
                     <img src={center3} alt="" />
-                    <div className='ml-3'>
+                    <div className='ml-3 centerContent'>
                         <h5>The Futr Abstr</h5>
-                        <div className='flex justify-around my-2'>
+                        <div className='flex justify-around items-center my-2'>
                             <img src={person} alt="" />
                             <p className='ethBtn mx-3'>0.25 ETH</p>
-                            <p>1 of 8</p>
+                            <p className='persent'>1 of 8</p>
                         </div>
                         <button className='bidSecondBtn'>Place a bid</button>
                     </div>
                 </div>
             </div>
 
-
+            {/* ---------- Right Section --------------- */}
 
             <div>
                 <div>

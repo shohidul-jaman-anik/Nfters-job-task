@@ -8,6 +8,41 @@
   grid-template-columns: repeat(4, 1fr);
   column-gap: 20px;
 }
+.nftsTitle {
+  padding-top: 64px;
+  padding-bottom: 48px;
+}
+.buttonContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.buttons {
+  padding-bottom: 40px;
+}
+.buttons button {
+  border-radius: 100px;
+  background-color: rgba(220, 220, 220, 0.2);
+  color: #000;
+  font-size: 14px;
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 17.452px;
+  padding: 10px 20px;
+  margin-left: 10px;
+}
+.firstBtn {
+  background-color: #3d00b7 !important;
+  color: white !important;
+}
+.filterBtn {
+  display: flex;
+  border-radius: 100px;
+  background: rgba(220, 220, 220, 0.2);
+  padding: 10px 20px;
+  margin-bottom: 25px;
+}
 .nftCard {
   width: 269.876px;
   height: 415px;
@@ -61,6 +96,9 @@
     row-gap: 30px;
     /* margin: 0% auto !important; */
   }
+  .buttonContainer {
+    flex-direction: column;
+  }
   .nftCard {
     margin: 0% auto;
   }
@@ -81,10 +119,13 @@
     row-gap: 30px;
   }
 }
-@media only screen and (min-device-width: 992px) and (max-device-width: 1134px) {
+@media only screen and (min-device-width: 992px) and (max-device-width: 1334px) {
   .nftsContainer {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     row-gap: 30px;
+  }
+  .moreNftBtn {
+    padding: 12px 40px;
   }
 }

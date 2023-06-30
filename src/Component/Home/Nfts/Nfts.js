@@ -1,7 +1,8 @@
 import React from 'react';
-import feature1 from "../../../Asset/Nfts/features1.svg";
-import feature2 from "../../../Asset/Nfts/features2.svg";
-import feature3 from "../../../Asset/Nfts/features3.svg";
+import filter from "../../../Asset/DiscoverNfts/filter-results-button.svg";
+import feature1 from "../../../Asset/DiscoverNfts/green.svg";
+import feature3 from "../../../Asset/DiscoverNfts/rainbow.svg";
+import feature2 from "../../../Asset/DiscoverNfts/yellow.svg";
 import "./Nfts.css";
 
 
@@ -29,7 +30,90 @@ const Nfts = () => {
             time: "3h 50m 2s left"
         },
         {
+            img: feature1,
+            title: "ArtCrypto",
+            eth: "0.25 ETH",
+            person: "1 of 321",
+            time: "3h 50m 2s left"
+        },
+        {
+            img: feature2,
+            title: "ArtCrypto",
+            eth: "0.25 ETH",
+            person: "1 of 321",
+            time: "3h 50m 2s left"
+        },
+        {
             img: feature3,
+            title: "ArtCrypto",
+            eth: "0.25 ETH",
+            person: "1 of 321",
+            time: "3h 50m 2s left"
+        },
+        {
+            img: feature1,
+            title: "ArtCrypto",
+            eth: "0.25 ETH",
+            person: "1 of 321",
+            time: "3h 50m 2s left"
+        },
+        {
+            img: feature2,
+            title: "ArtCrypto",
+            eth: "0.25 ETH",
+            person: "1 of 321",
+            time: "3h 50m 2s left"
+        },
+        {
+            img: feature3,
+            title: "ArtCrypto",
+            eth: "0.25 ETH",
+            person: "1 of 321",
+            time: "3h 50m 2s left"
+        }, {
+            img: feature1,
+            title: "ArtCrypto",
+            eth: "0.25 ETH",
+            person: "1 of 321",
+            time: "3h 50m 2s left"
+        },
+        {
+            img: feature2,
+            title: "ArtCrypto",
+            eth: "0.25 ETH",
+            person: "1 of 321",
+            time: "3h 50m 2s left"
+        },
+        {
+            img: feature3,
+            title: "ArtCrypto",
+            eth: "0.25 ETH",
+            person: "1 of 321",
+            time: "3h 50m 2s left"
+        },
+        {
+            img: feature1,
+            title: "ArtCrypto",
+            eth: "0.25 ETH",
+            person: "1 of 321",
+            time: "3h 50m 2s left"
+        },
+        {
+            img: feature2,
+            title: "ArtCrypto",
+            eth: "0.25 ETH",
+            person: "1 of 321",
+            time: "3h 50m 2s left"
+        },
+        {
+            img: feature3,
+            title: "ArtCrypto",
+            eth: "0.25 ETH",
+            person: "1 of 321",
+            time: "3h 50m 2s left"
+        },
+        {
+            img: feature1,
             title: "ArtCrypto",
             eth: "0.25 ETH",
             person: "1 of 321",
@@ -37,15 +121,28 @@ const Nfts = () => {
         },
 
     ]
-    // const [nfts, setNfts] = useState([])
-    // useEffect(() => {
-    //       fetch()
-    // }, [])
+
 
     return (
 
         <div className='mainNftsContainer container'>
-            <h1 className='nftsTitle'>Discover more NFTs</h1>
+            <h1 className='nftsTitle'>DISCOVER MORE NFTS</h1>
+
+            <div className='buttonContainer'>
+                <div className='buttons'>
+                    <button className='firstBtn'>All Categories</button>
+                    <button>Art</button>
+                    <button>Celebrities</button>
+                    <button>Gaming</button>
+                    <button>Sports</button>
+                    <button>Music</button>
+                    <button>Crypto</button>
+                </div>
+                <button className='filterBtn'>
+                    <img src={filter} alt="" />
+                    <p className='ml-2'>All Filters</p>
+                </button>
+            </div>
 
             <div className='nftsContainer'>
                 {

@@ -73,7 +73,41 @@
     margin: 50px 0px;
   }
 }
-@media only screen and (min-device-width: 1023px) and (max-device-width: 1430px) {
+@media only screen and (min-device-width: 778px) and (max-device-width: 1284px) {
+  .nftCollectionContainer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 60px;
+    row-gap: 100px;
+    margin: 100px 0px;
+  }
+
+  /* .centerContent h5{
+    font-size: 16px;
+    white-space: nowrap ;
+  }
+  .centerSection >img{
+    width: 100px;
+  }
+  .bidBtn {
+    padding: 5px 15px;
+    font-size: 12px;
+  }
+  .bidSecondBtn {
+    padding: 5px 15px;
+    font-size: 12px;
+  }
+  .ethBtn{
+    padding: 0px 5px;
+    white-space: nowrap;
+    height: 20px;
+  }
+  .persent{
+    font-size: 12px;
+    white-space: nowrap;
+  } */
+}
+@media only screen and (min-device-width: 1025px) and (max-device-width: 1430px) {
   .bidBtn {
     padding: 10px 20px;
   }
