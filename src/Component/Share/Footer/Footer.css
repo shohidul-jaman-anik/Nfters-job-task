@@ -1,13 +1,14 @@
-.LinkContainer {
+
+.footerRightSection {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  justify-content: space-between;
+  grid-template-columns: repeat(3,1fr);
+  column-gap: 20px;
 }
 
 .footerLinks {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  column-gap: 20px;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 50px;
 }
 
 @media only screen and (max-width: 600px) {

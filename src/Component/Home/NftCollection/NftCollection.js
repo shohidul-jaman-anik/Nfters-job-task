@@ -53,7 +53,7 @@ const NftCollection = () => {
                             <p className='ethBtn mx-3'>0.25 ETH</p>
                             <p className='persent'>1 of 8</p>
                         </div>
-                        <button className='bidBtn '>Place a bid</button>
+                        <button className='bidSecondBtn '>Place a bid</button>
                     </div>
                 </div>
                 <div className='flex my-5 centerSection'>

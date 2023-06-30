@@ -14,9 +14,15 @@
   border-radius: 60px;
   border: 1px solid #2639ed;
   color: #2639ed;
+  transition: background-color 0.5s ease;
   font-size: 11.001px;
   font-family: DM Sans;
   font-weight: 700;
+}
+.secondaryBtn:hover {
+  background-color: #2639ed;
+  border: 1px solid #2639ed;
+  color: white;
 }
 .featureTitle {
   padding: 40px 0px;

@@ -25,57 +25,59 @@ const Footer = () => {
                         </div>
                     </div>
 
-                    <div class="links">
-                        <h5 class="">Market Place</h5>
-                        <ul class="mt-2 space-y-2">
+                    <div className='footerRightSection'>
+                        <div class="links">
+                            <h5 class="">Market Place</h5>
+                            <ul class="mt-2 space-y-2">
 
-                            <li>
-                                <a href="/" class="">All NFTs</a>
-                            </li>
-                            <li>
-                                <a href="/" class="">New</a>
-                            </li>
-                            <li>
-                                <a href="/" class="">Art</a>
-                            </li>
-                            <li>
-                                <a href="/" class="">Sports</a>
-                            </li>
-                            <li>
-                                <a href="/" class="">Utility</a>
-                            </li>
-                            <li>
-                                <a href="/" class="">Music</a>
-                            </li>
-                            <li>
-                                <a href="/" class="">Domain Name</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="links">
-                        <h5 class="">My Account</h5>
-                        <ul class="mt-2 space-y-2">
-                            <li>
-                                <a href="/" class="">Profile</a>
-                            </li>
-                            <li>
-                                <a href="/" class="">Favorite</a>
-                            </li>
-                            <li>
-                                <a href="/" class="">My Collections</a>
-                            </li>
-                            <li>
-                                <a href="/" class="">Settings</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="links">
-                        <h5 class="">Stay in the loop</h5>
-                        <p>
-                            Join our mailing list to stay in the loop with our newest feature releases, NFT drops, and tips and tricks for navigating NFTs.
-                        </p>
+                                <li>
+                                    <a href="/" class="">All NFTs</a>
+                                </li>
+                                <li>
+                                    <a href="/" class="">New</a>
+                                </li>
+                                <li>
+                                    <a href="/" class="">Art</a>
+                                </li>
+                                <li>
+                                    <a href="/" class="">Sports</a>
+                                </li>
+                                <li>
+                                    <a href="/" class="">Utility</a>
+                                </li>
+                                <li>
+                                    <a href="/" class="">Music</a>
+                                </li>
+                                <li>
+                                    <a href="/" class="">Domain Name</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="links">
+                            <h5 class="">My Account</h5>
+                            <ul class="mt-2 space-y-2">
+                                <li>
+                                    <a href="/" class="">Profile</a>
+                                </li>
+                                <li>
+                                    <a href="/" class="">Favorite</a>
+                                </li>
+                                <li>
+                                    <a href="/" class="">My Collections</a>
+                                </li>
+                                <li>
+                                    <a href="/" class="">Settings</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="links">
+                            <h5 class="">Stay in the loop</h5>
+                            <p>
+                                Join our mailing list to stay in the loop with our newest feature releases, NFT drops, and tips and tricks for navigating NFTs.
+                            </p>
 
-                       
+
+                        </div>
                     </div>
                 </div>
 

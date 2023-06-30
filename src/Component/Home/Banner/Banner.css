@@ -6,13 +6,20 @@
 }
 .primaryBtn {
   border-radius: 60px;
-  background: #3d00b7;
+  background-color: #3d00b7;
+  border: 1px solid #3d00b7;
   padding: 18px 40px;
   color: #fff;
   font-size: 20px;
   font-family: "Averta Demo PE Cutted Demo";
+  transition: background-color 0.5s ease;
   letter-spacing: 1.3px;
   margin: 30px 0px;
+}
+.primaryBtn:hover {
+  background-color: white;
+  border: 1px solid #3d00b7;
+  color: black;
 }
 
 .countContainer {
