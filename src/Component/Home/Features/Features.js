@@ -15,70 +15,94 @@ import "./Features.css";
 
 const Features = () => {
     return (
-        <div className='container'>
-            <h2>Collection Featured NFTs</h2>
+        <div className='featureMainContainer container'>
+            <h2 className='featureTitle'>Collection Featured NFTs</h2>
             <div className='featureContainer'>
                 <div>
                     <div className='flex'>
-                        <img src={feature1} alt="" />
+                        <div className='largeImg'>
+                            <img src={feature1} alt="" />
+                        </div>
                         <div className=' ml-2'>
-                            <img src={f1_1} alt="" className='mb-2' />
-                            <img src={f1_2} alt="" className='mb-2' />
-                            <img src={f1_3} alt="" className='mb-2' />
+                            <div className='sideImg'>
+                                <img src={f1_1} alt="" />
+                            </div>
+                            <div className='sideImg my-2'>
+                                <img src={f1_2} alt="" />
+                            </div>
+                            <div className='sideImg'>
+                                <img src={f1_3} alt="" />
+                            </div>
+
                         </div>
                     </div>
-                    <h5>Amazing Collection</h5>
-                    <div className='flex'>
+                    <h5 className='mt-5'>Amazing Collection</h5>
+                    <div className='flex justify-between mt-3'>
                         <div className='flex'>
                             <img src={person} alt="" />
-                            <p >by Arkhan</p>
+                            <p className=' whitespace-nowrap ml-2'>by Arkhan</p>
                         </div>
                         <div>
                             <button className='secondaryBtn'>Total 54 Items</button>
                         </div>
-
                     </div>
                 </div>
                 <div>
                     <div className='flex'>
-                        <img src={feature2} alt="" />
+                        <div className='largeImg'>
+                            <img src={feature2} alt="" />
+                        </div>
                         <div className=' ml-2'>
-                            <img src={f1_2} alt="" className='mb-2' />
-                            <img src={f1_1} alt="" className='mb-2' />
-                            <img src={f2_3} alt="" className='mb-2' />
+                            <div className='sideImg'>
+                                <img src={f1_2} alt="" />
+                            </div>
+                            <div className='sideImg my-2'>
+                                <img src={f1_1} alt="" />
+                            </div>
+                            <div className='sideImg'>
+                                <img src={f2_3} alt="" />
+                            </div>
                         </div>
                     </div>
-                    <h5>Amazing Collection</h5>
-                    <div className='flex'>
+
+                    <h5 className='mt-5'>Amazing Collection</h5>
+                    <div className='flex justify-between mt-3'>
                         <div className='flex'>
                             <img src={person} alt="" />
-                            <p >by Arkhan</p>
+                            <p className=' whitespace-nowrap ml-2'>by Arkhan</p>
                         </div>
                         <div>
                             <button className='secondaryBtn'>Total 54 Items</button>
                         </div>
-
                     </div>
                 </div>
                 <div>
                     <div className='flex'>
-                        <img src={feature3} alt="" />
+                        <div className='largeImg'>
+                            <img src={feature3} alt="" />
+                        </div>
                         <div className=' ml-2'>
-                            <img src={f3_1} alt="" className='mb-2' />
-                            <img src={f3_2} alt="" className='mb-2' />
-                            <img src={f1_1} alt="" className='mb-2' />
+                            <div className='sideImg'>
+                                <img src={f3_1} alt="" />
+                            </div>
+                            <div className='sideImg my-2'>
+                                <img src={f3_2} alt="" />
+                            </div>
+                            <div className='sideImg'>
+                                <img src={f1_1} alt="" />
+                            </div>
                         </div>
                     </div>
-                    <h5>Amazing Collection</h5>
-                    <div className='flex'>
+
+                    <h5 className='mt-5'>Amazing Collection</h5>
+                    <div className='flex justify-between mt-3'>
                         <div className='flex'>
                             <img src={person} alt="" />
-                            <p >by Arkhan</p>
+                            <p className=' whitespace-nowrap ml-2'>by Arkhan</p>
                         </div>
                         <div>
                             <button className='secondaryBtn'>Total 54 Items</button>
                         </div>
-
                     </div>
                 </div>
             </div>
