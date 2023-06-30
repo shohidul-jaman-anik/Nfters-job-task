@@ -1,4 +1,4 @@
-.header a{
+/* .header a{
     text-decoration: none;
     margin: 10px;
     padding: 10px;
@@ -9,4 +9,29 @@
     color: white;
     background-color: blueviolet;
     border-radius: 20px;
+} */
+
+.connectBtn {
+  color: #3d00b7;
+  font-size: 14px;
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%;
+  letter-spacing: 0.56px;
+  border-radius: 60px;
+  border: 2px solid #3d00b7;
+  padding: 18px 22px;
+  margin-left: 5px;
+}
+
+@media only screen and (max-width: 600px) {
+  .connectBtn {
+    letter-spacing: 0.56px;
+    border-radius: 60px;
+    border: 2px solid #3d00b7;
+    padding: 10px 15px;
+    margin-left: 2px;
+    font-size: 12px;
+  }
 }

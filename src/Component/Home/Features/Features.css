@@ -14,10 +14,9 @@
   font-weight: 700;
 }
 @media only screen and (max-width: 600px) {
-    .featureContainer {
-      display: grid;
-      grid-template-columns: repeat(1, 1fr);
-      row-gap: 80px;
-    }
+  .featureContainer {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    row-gap: 80px;
   }
-  
+}

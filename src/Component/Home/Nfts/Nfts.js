@@ -28,6 +28,13 @@ const Nfts = () => {
             person: "1 of 321",
             time: "3h 50m 2s left"
         },
+        {
+            img: feature3,
+            title: "ArtCrypto",
+            eth: "0.25 ETH",
+            person: "1 of 321",
+            time: "3h 50m 2s left"
+        },
 
     ]
     // const [nfts, setNfts] = useState([])
@@ -38,9 +45,9 @@ const Nfts = () => {
     return (
 
         <div className='mainNftsContainer container'>
-            <h1>Discover more NFTs</h1>
+            <h1 className='nftsTitle'>Discover more NFTs</h1>
 
-            <div className='nftsContainer '>
+            <div className='nftsContainer'>
                 {
                     Nfts.map(nft =>
                         <div className='nftCard'>

@@ -7,7 +7,7 @@
 .primaryBtn {
   border-radius: 60px;
   background: #3d00b7;
-  padding: 20px 40px;
+  padding: 18px 40px;
   color: #fff;
   font-size: 20px;
   font-family: "Averta Demo PE Cutted Demo";
@@ -28,5 +28,16 @@
     grid-template-columns: repeat(1, 1fr);
     align-items: center;
   }
+  .primaryBtn {
+    padding: 8px 15px;
+    font-size: 20px;
+    margin: 30px 0px;
+  }
 }
-
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1430px) {
+  .primaryBtn {
+    border-radius: 60px;
+    background: #3d00b7;
+    padding: 10px 35px !important;
+  }
+}

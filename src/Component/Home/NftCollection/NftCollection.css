@@ -1,0 +1,27 @@
+.nftCollectionContainer{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 30px;
+}
+.ethBtn {
+  border-radius: 6px;
+  border: 1px solid #00ac4f;
+  color: #00ac4f;
+  font-size: 12px;
+  font-family: DM Sans;
+  font-weight: 700;
+  padding: 8px;
+}
+.bidBtn {
+  border-radius: 50px;
+  background: #3d00b7;
+  padding: 14px 20px;
+  color: #fff;
+  font-size: 14px;
+  font-family: "Averta Demo PE Cutted Demo";
+}
+.leftDescription{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+}

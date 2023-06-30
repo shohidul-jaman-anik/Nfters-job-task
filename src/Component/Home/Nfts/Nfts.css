@@ -10,7 +10,7 @@
 }
 .nftCard {
   width: 269.876px;
-  height: 373px;
+  height: 415px;
   background-color: white;
   padding: 10px;
   border-radius: 15px;
@@ -48,4 +48,43 @@
   text-align: center;
   padding-top: 55px;
   padding-bottom: 47px;
+}
+
+@media only screen and (max-width: 600px) {
+  .nftsTitle {
+    text-align: center;
+    margin: 1rem 0rem;
+  }
+  .nftsContainer {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    row-gap: 30px;
+    /* margin: 0% auto !important; */
+  }
+  .nftCard {
+    margin: 0% auto;
+  }
+  .moreNftBtn {
+    text-align: center;
+    padding: 8px 25px !important;
+  }
+  .moreNft {
+    padding-top: 35px;
+    padding-bottom: 27px;
+  }
+}
+
+@media only screen and (min-device-width: 600px) and (max-device-width: 992px) {
+  .nftsContainer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 30px;
+  }
+}
+@media only screen and (min-device-width: 992px) and (max-device-width: 1134px) {
+  .nftsContainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 30px;
+  }
 }

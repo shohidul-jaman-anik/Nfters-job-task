@@ -5,9 +5,9 @@ import "./Banner.css";
 
 const Banner = () => {
     return (
-        <div id="banner" class="bannerContainer container">
+        <div id="banner" class="bannerContainer container ">
 
-            <div class="">
+            <div class="py-20">
                 <h1 class="BannerHeading">Discover, and collect Digital Art  NFTs </h1>
                 <p class="bannerContent leading-normal ">
                     Digital marketplace for crypto collectibles and non-fungible tokens (NFTs). Buy, Sell, and discover exclusive digital assets.
