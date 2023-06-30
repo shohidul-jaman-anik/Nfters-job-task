@@ -1,12 +1,24 @@
 import React from 'react';
+import bottom from "../../../Asset/SellNft/bottom.svg";
+import right from "../../../Asset/SellNft/right.svg";
+import top from "../../../Asset/SellNft/top.svg";
 import "./SellNfts.css";
-
 
 const SellNfts = () => {
     return (
         <div id="about" class="aboutContainer container">
-            <div class=" ">
-                {/* <img src="./Asset/Group 34.png" class="aboutImg" alt="" /> */}
+            <div class="flex items-center ">
+                <div>
+                    <div>
+                        <img src={top} alt="" />
+                    </div>
+                    <div >
+                        <img src={bottom} class="ml-auto" alt="" />
+                    </div>
+                </div>
+                <div className='ml-5'>
+                    <img src={right} alt="" />
+                </div>
             </div>
 
             <div class="aboutContentContainer ">

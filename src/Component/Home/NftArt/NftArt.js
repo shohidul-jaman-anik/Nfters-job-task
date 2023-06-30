@@ -6,10 +6,10 @@ import "./NftArt.css";
 
 const NftArt = () => {
     return (
-        <div className='nftArtMainContainer'>
-            <div className='nftArtContainer container'>
+        <div className='nftArtMainContainer container'>
+            <div className='nftArtContainer '>
                 <div>
-                    <h2>The amazing NFT art of the world here</h2>
+                    <h2>THE AMAZING NFT ART OF THE WORLD HERE</h2>
                 </div>
                 <div>
                     <div className='flex'>

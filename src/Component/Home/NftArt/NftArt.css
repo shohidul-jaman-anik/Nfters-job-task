@@ -1,17 +1,14 @@
 .nftArtMainContainer {
   background-color: rgba(217, 224, 236, 0.2);
-  padding: 110px 0px;
 }
 .nftArtContainer {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  column-gap: 20px;
+  column-gap: 86px;
+  padding: 100px 0px;
 }
 
 @media only screen and (max-width: 600px) {
-    .nftArtMainContainer {
-        padding: 50px 0px;
-      }
   .nftArtContainer {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
